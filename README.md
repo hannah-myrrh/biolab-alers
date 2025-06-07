@@ -71,26 +71,9 @@ REACT_APP_API_URL=http://localhost:5000/api
 npm start
 ```
 
-### Backend Setup
 
-1. Navigate to the backend directory:
-```bash
-cd ../lab-reservation-backend
-```
 
-2. Install the required packages:
-```bash
-pip install -r requirements.txt
-```
-
-3. Create a `.env` file in the backend directory:
-```env
-DATABASE_URL=postgresql://username:password@localhost:5432/lab_reservation
-JWT_SECRET_KEY=your_secret_key
-FLASK_ENV=development
-```
-
-4. Run the Flask application:
+5. Run the Flask application:
 ```bash
 python app.py
 ```
